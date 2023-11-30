@@ -56,6 +56,7 @@ const Search = () => {
       className="
         border-[1px] 
         w-full 
+        flex-1
         md:w-auto 
         py-2 
         rounded-full 

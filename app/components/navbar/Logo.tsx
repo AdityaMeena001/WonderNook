@@ -7,7 +7,8 @@ const Logo = () => {
   const router = useRouter();
 
   return ( 
-    <Image
+<div className="flex-1">
+<Image
       onClick={() => router.push('/')}
       className="hidden md:block cursor-pointer" 
       src="/images/logo.png" 
@@ -15,6 +16,7 @@ const Logo = () => {
       width="100" 
       alt="Logo" 
     />
+</div>
    );
 }
  
